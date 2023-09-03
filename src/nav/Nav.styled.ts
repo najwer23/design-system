@@ -26,7 +26,7 @@ export const NavUtils = styled.div`
 `;
 
 export const NavUtil = styled.button<{ $bgColor?: string; $active?: boolean }>`
-	background-color: ${props => props.$active ? "red" : props.$bgColor || "initial"};
+	background-color: ${props => props.$active ? "#23E200" : props.$bgColor || "initial"};
 	border: 0 solid #e5e7eb;
 	box-sizing: border-box;
 	color: #000000;
