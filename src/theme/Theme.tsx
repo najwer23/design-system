@@ -1,8 +1,8 @@
 import { ThemeProvider } from "styled-components";
 import {
 	light,
-	dark,
 } from "./Theme.styled";
+import GlobalStyle from "./GlobalStyles";
 
 interface Props {
 	children: React.ReactNode
@@ -10,7 +10,8 @@ interface Props {
 
 export const Theme = ({ children }: Props): JSX.Element => {
 	return (
-		<ThemeProvider theme={dark}>
+		<ThemeProvider theme={light}>
+			<GlobalStyle />
 			{children}
 		</ThemeProvider>
 	)

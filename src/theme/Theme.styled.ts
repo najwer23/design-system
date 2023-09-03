@@ -1,29 +1,13 @@
 export const light = {
 	name: "light-theme",
 	colors: {
-		header: "green",
-		background: "hsl(0, 0%, 100%)",
-		footer: "hsl(0, 1%, 38%)",
-		text: "hsl(0, 1%, 16%)",
-		quoteBgc: "hsl(60, 40%, 100%)",
-		quoteTitle: "hsl(0, 1%, 38%)",
-		quoteBody: "hsl(0, 1%, 38%);",
-		quoteBorder: "hsl(0, 0%, 87%)",
-		border: "hsl(0, 0%, 87%)",
+		color1: "black",
+		surface1: "#eee",
 	},
-};
-
-export const dark = {
-	name: "dark-theme",
-	colors: {
-		header: "yellow",
-		background: "hsl(0, 1%, 16%)",
-		footer: "hsl(0, 0%, 93%)",
-		text: "hsl(0, 0%, 100%)",
-		quoteBgc: "hsl(0, 0%, 35%)",
-		quoteTitle: "hsl(0, 0%, 100%)",
-		quoteBody: "hsl(0, 0%, 100%)",
-		quoteBorder: "hsl(0, 0%, 59%)",
-		border: "hsl(0, 0%, 78%)",
+	font: "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
+	device: {
+		mobile: "(max-width: 575.98px)",
+		tablet: "(max-width: 768px) and (max-width: 1399.98px)",
+		desktop: "(min-width: 1400px)",
 	},
 };
