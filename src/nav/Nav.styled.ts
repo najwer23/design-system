@@ -5,6 +5,10 @@ export const NavContainer = styled.div`
 	display: flex;
 	justify-content: space-between;
 
+	@media print {
+		display: none !important;
+	}
+
 	@media ${({ theme }) => theme.device.mobile} {
 		flex-wrap: wrap;
 		justify-content: center;
@@ -23,6 +27,8 @@ export const NavUtils = styled.div`
 	color: ${({ theme }) => theme.colors.color1};
 	display: flex;
 	gap: 20px;
+	position: fixed;
+	right: 30px;
 `;
 
 export const NavUtil = styled.button<{ $bgColor?: string; $active?: boolean }>`
