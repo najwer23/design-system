@@ -1,9 +1,10 @@
 import { RouterProvider, createHashRouter } from "react-router-dom";
+import { RoutHomepage } from "./RoutHomepage";
 
 export const router = createHashRouter([
 	{
 		path: "/",
-		element: <>hello</>,
+		element: <RoutHomepage />,
 	},
 ]);
 
