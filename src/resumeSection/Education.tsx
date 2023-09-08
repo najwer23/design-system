@@ -1,6 +1,5 @@
-import { Section, SectionInner, SectionTitle } from "../theme/Common";
 import { T } from "../translation/T";
-import { Section2Col, Section2ColDesc, Section2ColDescDesc, Section2ColDescDescInner, Section2ColDescTitle, Section2ColLogo, SectionTitleLine } from "./resumeSection.styled";
+import { Section, Section2Col, Section2ColDesc, Section2ColDescDesc, Section2ColDescDescInner, Section2ColDescTitle, Section2ColLogo, SectionInner, SectionTitle, SectionTitleLine } from "./resumeSection.styled";
 
 export const Education = () => {
 

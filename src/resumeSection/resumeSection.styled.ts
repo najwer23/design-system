@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Intro = styled.div`
+export const SectionIntro = styled.div`
 	display: flex;
 	margin-bottom: 0px;
 `;
@@ -33,6 +33,22 @@ export const IntroLink = styled.div`
 	}
 `;
 
+export const Section = styled.section`
+	margin-top: 30px;
+`;
+
+export const SectionInner = styled.section``;
+
+export const SectionTitle = styled.div`
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	&:first-letter {
+		font-size: 22px;
+	}
+`;
+
 export const SectionTitleLine = styled.div`
 	width: 300px;
 	height: 3px;
@@ -59,6 +75,7 @@ export const Section2ColDesc = styled.div`
 `
 export const Section2ColDescTitle = styled.div`
 	font-size: 18px;
+	font-weight: 600;
 `;
 
 export const Section2ColDescDesc = styled.div`
@@ -66,4 +83,19 @@ export const Section2ColDescDesc = styled.div`
 
 export const Section2ColDescDescInner = styled.div`
 	font-size: 15px;
+`;
+
+export const Section2ColDescDescInnerStory = styled.div`
+	margin-top: 8px;
+	font-size: 15px;
+	line-height: 130%;
+
+	ul {
+		padding-left: 20px;
+	}
+`;
+
+export const Section2ColDescDescInnerTech = styled.div`
+	margin-top: 10px;
+	font-size: 12px;
 `;

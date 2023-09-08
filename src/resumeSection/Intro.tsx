@@ -1,4 +1,4 @@
-import { Intro, IntroLink, IntroLinks, IntroTitle, IntroTitleDesc, IntroTitleName } from "./resumeSection.styled";
+import { IntroLink, IntroLinks, IntroTitle, IntroTitleDesc, IntroTitleName, SectionIntro } from "./resumeSection.styled";
 
 const Links: {
 	[key: string]: string | React.ReactNode
@@ -9,10 +9,10 @@ const Links: {
 	"https://www.linkedin.com/in/najwer23": "https://www.linkedin.com/in/najwer23",
 };
 
-export const PageIntro = () => {
+export const Intro = () => {
 	return (
 		<>
-			<Intro>
+			<SectionIntro>
 				<IntroTitle>
 					<IntroTitleName>
 						<b>Mariusz</b> Najwer
@@ -30,7 +30,7 @@ export const PageIntro = () => {
 						</IntroLink>
 					))}
 				</IntroLinks>
-			</Intro>
+			</SectionIntro>
 		</>
 	);
 }

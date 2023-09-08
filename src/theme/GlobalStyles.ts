@@ -24,6 +24,12 @@ const GlobalStyle = createGlobalStyle`
 			/* Reset the document's background color */
 			background-color: #fff;
 		}
+
+		* {
+			/* Include the content box as well as padding and border for precise definitions */
+			box-sizing: initial;
+			-moz-box-sizing: initial;
+		}
 	}
 `;
 
