@@ -106,3 +106,24 @@ export const SkillsWrapper = styled.div`
 	gap: 10px;
 	flex-wrap: wrap;
 `;
+
+
+export const SectionProjectTitle = styled.div`
+	font-style: italic;
+	font-size: 18px;
+`;
+
+export const SectionProjectTech = styled.div`
+	font-size: 12px;
+`
+
+export const SectionProjectDesc = styled.div`
+	font-size: 15px;
+`
+
+export const HRLine = styled.div`
+	margin: 15px 0 15px;
+	width: 100%;
+	height: 2px;
+	background-color: lightgray;
+`

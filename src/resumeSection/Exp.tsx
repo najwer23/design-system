@@ -132,7 +132,7 @@ interface ExpProps {
 
 
 export const Exp = ({title, number}: ExpProps) => {
-	let expObj: {
+	let obj: {
 		[key: string|number]: string | React.ReactNode
 	} = {
 		1: <Exp1 />,
@@ -141,12 +141,10 @@ export const Exp = ({title, number}: ExpProps) => {
 		4: <Exp4 />
 	}
 
-	let indexExpObj = number ?? 1
-
 	return (
 		<Section>
 			{title && <ExpTitle/>}
-			{expObj[indexExpObj]}
+			{obj[number ?? 1]}
 		</Section>
 	);
 }

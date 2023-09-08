@@ -9,13 +9,13 @@ export const NavContainer = styled.div`
 		display: none !important;
 	}
 
-	@media ${({ theme }) => theme.device.mobile} {
+	/* @media ${({ theme }) => theme.device.mobile} {
 		flex-wrap: wrap;
 		justify-content: center;
 		flex-direction: column-reverse;
 		align-items: center;
 		gap: 20px;
-	}
+	} */
 `;
 
 export const BoxMody = styled.div`
