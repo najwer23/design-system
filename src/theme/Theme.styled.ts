@@ -3,8 +3,9 @@ export const light = {
 	colors: {
 		color1: "black",
 		surface1: "#eee",
+		introTitleDesc: "orangered"
 	},
-	font: "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
+	font: "Mulish, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
 	bodyFontSize: "12pt",
 	device: {
 		mobile: "(max-width: 575.98px)",
