@@ -3,6 +3,7 @@ import { PageA4 } from "../pageA4/PageA4"
 import { Education } from "../resumeSection/Education"
 import { Exp } from "../resumeSection/Exp"
 import { Intro } from "../resumeSection/Intro"
+import { Skills } from "../resumeSection/Skills"
 
 export const RoutHomepage = (): JSX.Element => {
 	return (
@@ -16,7 +17,9 @@ export const RoutHomepage = (): JSX.Element => {
 				<Exp number={2}/>
 				<Exp number={1}/>
 			</PageA4>
-			<PageA4><div>dddd</div></PageA4>
+			<PageA4>
+				<Skills />
+			</PageA4>
 			<PageA4><div>dddd</div></PageA4>
 		</>
 	)

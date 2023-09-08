@@ -99,3 +99,10 @@ export const Section2ColDescDescInnerTech = styled.div`
 	margin-top: 10px;
 	font-size: 12px;
 `;
+
+export const SkillsWrapper = styled.div`
+	display: flex;
+	align-items: baseline;
+	gap: 10px;
+	flex-wrap: wrap;
+`;
